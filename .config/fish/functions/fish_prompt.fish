@@ -77,9 +77,9 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     # PWD
-    set_color normal 
-    echo -n (date +"%H:%M:%S")
-    echo -n " "
+    # set_color normal 
+    # echo -n (date +"%H:%M:%S")
+    # echo -n " "
     set_color $color_cwd
     echo -n (prompt_pwd)
     set_color normal

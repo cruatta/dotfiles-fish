@@ -1,0 +1,1 @@
+../plugins/fish-command-timer/fish_command_timer.fish
